@@ -1,0 +1,535 @@
+{
+  "places": {
+    "india": {
+      "kashmir": {
+        "title": "Kashmir",
+        "popular": true,
+        "description": "Experience the 'Paradise on Earth' with its serene lakes, lush valleys, and snow-capped peaks. A timeless beauty that captivates every visitor.",
+        "images": [
+          "assets/images/kashmir.jpg",
+          "assets/images/kashmir-2.jpg",
+          "assets/images/kashmir-3.jpg",
+          "assets/images/kashmir-4.jpg"
+        ],
+        "duration": "5 Days / 4 Nights",
+        "price": "₹18,500",
+        "packageOptions": [
+          { "duration": "4 Days / 3 Nights", "price": "₹14,500" },
+          { "duration": "5 Days / 4 Nights", "price": "₹18,500" },
+          { "duration": "7 Days / 6 Nights", "price": "₹24,000" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "Premium Houseboat Stay",
+          "Breakfast & Dinner included",
+          "Shikara Ride on Dal Lake",
+          "Private Cab for Sightseeing",
+          "Airport Pick & Drop"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival in Srinagar & Houseboat Stay",
+            "activities": "Welcome to Srinagar! Our representative will pick you up from the airport and transfer you to a premium houseboat on Dal Lake. Enjoy a relaxing 1-hour Shikara ride in the evening. Dinner and overnight stay at the houseboat."
+          },
+          {
+            "day": "Day 2",
+            "title": "Day Excursion to Sonamarg",
+            "activities": "After breakfast, drive to Sonamarg, the 'Meadow of Gold'. Enjoy the breathtaking views of snow-clad peaks. You can take a pony ride to the Thajiwas Glacier. Return to Srinagar hotel for an overnight stay."
+          },
+          {
+            "day": "Day 3",
+            "title": "Srinagar to Gulmarg Adventure",
+            "activities": "Drive to Gulmarg, famous for its ski resorts and the world's highest 18-hole golf course. Experience the famous Gondola Cable Car ride (tickets at own cost) up to Phase 1 or 2. Evening return to Srinagar."
+          },
+          {
+            "day": "Day 4",
+            "title": "Pahalgam - The Valley of Shepherds",
+            "activities": "Proceed to Pahalgam. En route, visit the saffron fields and Awantipora ruins. In Pahalgam, enjoy the serene Lidder river and lush green pine forests. You can visit Betaab Valley or Aru Valley via local union cabs. Return to Srinagar."
+          },
+          {
+            "day": "Day 5",
+            "title": "Departure from Srinagar",
+            "activities": "After a hearty breakfast, pack your wonderful memories. Our driver will drop you at the Srinagar Airport for your onward journey."
+          }
+        ],
+        "reviews": [
+          {
+            "name": "Priya Sharma",
+            "profileImg": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+            "stars": 5,
+            "text": "Kashmir truly is paradise! Tripzo organized everything flawlessly. The houseboat experience was magical, and our driver was extremely polite. Highly recommended!"
+          },
+          {
+            "name": "Rahul Verma",
+            "profileImg": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+            "stars": 4,
+            "text": "Great trip. The views in Gulmarg were stunning. The only issue was the cold weather in the evenings, but the hotel provided good heaters. Overall, a 10/10 experience."
+          }
+        ]
+      },
+      
+      "manali": {
+        "title": "Manali",
+        "popular": true,
+        "description": "Discover adventure in the Himalayan gateway, from snowy peaks and paragliding thrills to the serene beauty of the Beas River valleys.",
+        "images": [
+          "assets/images/manali.jpg",
+          "assets/images/manali-2.jpg",
+          "assets/images/manali-3.jpg",
+          "assets/images/manali-4.jpg"
+        ],
+        "duration": "4 Days / 3 Nights",
+        "price": "₹12,000",
+        "packageOptions": [
+          { "duration": "3 Days / 2 Nights", "price": "₹9,500" },
+          { "duration": "4 Days / 3 Nights", "price": "₹12,000" },
+          { "duration": "6 Days / 5 Nights", "price": "₹16,500" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "3-Star Hotel Accommodation",
+          "Daily Breakfast",
+          "Solang Valley Tour",
+          "Volvo Bus Tickets (Delhi-Manali-Delhi)",
+          "All Local Taxes"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival in Manali & Local Sightseeing",
+            "activities": "Arrive in Manali via overnight Volvo. Check into the hotel and rest. Later, visit Hadimba Temple, Vashisht Village, and the Tibetan Monastery. Evening free to explore Mall Road."
+          },
+          {
+            "day": "Day 2",
+            "title": "Adventure at Solang Valley",
+            "activities": "Full day excursion to Solang Valley. Enjoy breathtaking views and thrilling adventure activities like paragliding, zorbing, and ATVs (activities at own cost). Return to hotel for dinner."
+          },
+          {
+            "day": "Day 3",
+            "title": "Kullu & Naggar Castle",
+            "activities": "After breakfast, head towards Kullu for river rafting. Visit the shawl factories and the historic Naggar Castle, known for its beautiful architecture and art gallery."
+          },
+          {
+            "day": "Day 4",
+            "title": "Departure",
+            "activities": "Check out from the hotel by noon. Spend your afternoon shopping for souvenirs. Catch the evening Volvo bus back to Delhi with unforgettable memories."
+          }
+        ],
+        "reviews": [
+          {
+            "name": "Ananya Desai",
+            "profileImg": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+            "stars": 5,
+            "text": "The Manali trip was perfect! The Volvo journey was comfortable, and our hotel had an amazing view of the snow-capped mountains. Solang Valley was the highlight!"
+          }
+        ]
+      },
+
+      "ooty": {
+        "title": "Ooty",
+        "popular": true,
+        "description": "Ride the iconic toy train through misty Nilgiri hills, explore sprawling tea estates, and enjoy the serene beauty of the 'Queen of Hill Stations'.",
+        "images": [
+          "assets/images/ooty.jpg",
+          "assets/images/ooty-2.jpg",
+          "assets/images/ooty-3.jpg",
+          "assets/images/ooty-4.jpg"
+        ],
+        "duration": "4 Days / 3 Nights",
+        "price": "₹14,500",
+        "packageOptions": [
+          { "duration": "3 Days / 2 Nights", "price": "₹11,000" },
+          { "duration": "4 Days / 3 Nights", "price": "₹14,500" },
+          { "duration": "5 Days / 4 Nights", "price": "₹17,800" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "Heritage Hotel Stay",
+          "Daily Breakfast",
+          "Nilgiri Toy Train Ride Ticket",
+          "Private AC Cab",
+          "Coonoor Sightseeing"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival in Ooty",
+            "activities": "Arrive at Coimbatore airport/station and transfer to Ooty. Check-in to your heritage hotel. Evening at leisure to enjoy the cool climate."
+          },
+          {
+            "day": "Day 2",
+            "title": "Ooty Local Sightseeing",
+            "activities": "Visit the famous Botanical Gardens, Ooty Lake for boating, and Doddabetta Peak. Experience the beautiful rose gardens."
+          },
+          {
+            "day": "Day 3",
+            "title": "Coonoor & Toy Train Ride",
+            "activities": "Experience the famous Nilgiri Mountain Railway (Toy Train) journey to Coonoor. Visit Sim's Park, Lamb's Rock, and Dolphin's Nose. Return to Ooty by cab."
+          },
+          {
+            "day": "Day 4",
+            "title": "Departure",
+            "activities": "After breakfast, check out from the hotel and drive back to Coimbatore for your return journey."
+          }
+        ],
+        "reviews": [
+          {
+            "name": "Vikram Singh",
+            "profileImg": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+            "stars": 4,
+            "text": "A very relaxing trip. The Toy Train ride was iconic. The driver provided by Tripzo was very knowledgeable and knew all the best local food joints."
+          }
+        ]
+      },
+
+      "puducherry": {
+        "title": "Puducherry",
+        "popular": true,
+        "description": "Find a unique touch of French colonial charm, stroll along serene beaches, and discover spiritual havens like Auroville.",
+        "images": [
+          "assets/images/puducherry.jpg",
+          "assets/images/puducherry-2.jpg",
+          "assets/images/puducherry-3.jpg",
+          "assets/images/puducherry-4.jpg"
+        ],
+        "duration": "3 Days / 2 Nights",
+        "price": "₹10,500",
+        "packageOptions": [
+          { "duration": "3 Days / 2 Nights", "price": "₹10,500" },
+          { "duration": "4 Days / 3 Nights", "price": "₹13,500" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "Boutique Stay in French Quarter",
+          "Breakfast Included",
+          "Auroville Day Tour",
+          "Bicycle Rentals for City Tour"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival & French Quarter Walk",
+            "activities": "Arrive in Puducherry and check-in. In the evening, take a stroll through the White Town (French Quarter) and relax at the Promenade Beach."
+          },
+          {
+            "day": "Day 2",
+            "title": "Auroville & Paradise Beach",
+            "activities": "Visit the experimental township of Auroville and the Matrimandir. Later, take a boat ride to the beautiful and clean Paradise Beach."
+          },
+          {
+            "day": "Day 3",
+            "title": "Departure",
+            "activities": "Visit the Aurobindo Ashram and the local markets for some shopping before heading back home."
+          }
+        ],
+        "reviews": [
+          {
+            "name": "Neha Gupta",
+            "profileImg": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+            "stars": 5,
+            "text": "Loved the vibe of Pondy! The boutique hotel arranged by the agency was right in the middle of White Town. Very Instagrammable trip!"
+          }
+        ]
+      }
+    },
+
+    "japan": {
+      "tokyo": {
+        "title": "Tokyo",
+        "popular": true,
+        "description": "From ancient temples to neon-lit skyscrapers, Tokyo is a city of endless discovery.",
+        "images": [
+          "assets/images/tokyo.jpg",
+          "assets/images/tokyo-2.jpg",
+          "assets/images/tokyo-3.jpg",
+          "assets/images/tokyo-4.jpg"
+        ],
+        "duration": "6 Days / 5 Nights",
+        "price": "₹85,000",
+        "packageOptions": [
+          { "duration": "5 Days / 4 Nights", "price": "₹72,000" },
+          { "duration": "6 Days / 5 Nights", "price": "₹85,000" },
+          { "duration": "8 Days / 7 Nights", "price": "₹1,15,000" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "4-Star City Center Hotel",
+          "Daily Breakfast",
+          "Mt. Fuji Day Tour",
+          "Bullet Train Experience",
+          "English Speaking Guide"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Kon'nichiwa Tokyo!",
+            "activities": "Arrive at Narita or Haneda Airport. Transfer to your hotel in Shinjuku. Rest and explore the neon-lit streets in the evening."
+          },
+          {
+            "day": "Day 2",
+            "title": "Tokyo City Tour",
+            "activities": "Visit the historic Senso-ji Temple in Asakusa, the Tokyo Skytree, and experience the famous Shibuya crossing."
+          },
+          {
+            "day": "Day 3",
+            "title": "Mt. Fuji & Hakone Day Trip",
+            "activities": "Take a bus tour to the 5th Station of Mt. Fuji (weather permitting). Enjoy a cruise on Lake Ashi and take the Hakone Ropeway."
+          },
+          {
+            "day": "Day 4",
+            "title": "Kyoto via Bullet Train",
+            "activities": "Experience the high-speed Shinkansen (Bullet Train) to Kyoto. Visit the Fushimi Inari Shrine and return to Tokyo by evening."
+          },
+          {
+            "day": "Day 5",
+            "title": "Free Day / Disneyland",
+            "activities": "Spend the day at your leisure. You can opt for a trip to Tokyo Disneyland or go shopping in the Ginza district."
+          },
+          {
+            "day": "Day 6",
+            "title": "Sayonara",
+            "activities": "Check out and head to the airport for your flight back home."
+          }
+        ],
+        "reviews": [
+          {
+            "name": "Michael Smith",
+            "profileImg": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+            "stars": 5,
+            "text": "An absolutely surreal experience. The bullet train ride and the view of Mt. Fuji were breathtaking. The agency planned it flawlessly."
+          }
+        ]
+      }
+    },
+
+    "indonesia": {
+      "bali": {
+        "title": "Bali",
+        "popular": true,
+        "description": "The Island of Gods, offering lush jungles, iconic rice paddies, and stunning beaches.",
+        "images": [
+          "assets/images/bali.jpg",
+          "assets/images/bali-2.jpg",
+          "assets/images/bali-3.jpg",
+          "assets/images/bali-4.jpg"
+        ],
+        "duration": "6 Days / 5 Nights",
+        "price": "₹35,000",
+        "packageOptions": [
+          { "duration": "5 Days / 4 Nights", "price": "₹28,500" },
+          { "duration": "6 Days / 5 Nights", "price": "₹35,000" },
+          { "duration": "7 Days / 6 Nights", "price": "₹41,000" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "Private Villa with Private Pool",
+          "Daily Breakfast & 1 Romantic Dinner",
+          "Ubud Swing & Rice Terrace Tour",
+          "Water Sports at Nusa Dua",
+          "Airport Transfers"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival in Bali",
+            "activities": "Arrive at Denpasar Airport. Meet our representative and transfer to your luxurious Private Pool Villa in Seminyak."
+          },
+          {
+            "day": "Day 2",
+            "title": "Ubud Tour & Kintamani",
+            "activities": "Visit the famous Tegalalang Rice Terraces, enjoy the Bali Jungle Swing, and view the magnificent Mount Batur volcano."
+          },
+          {
+            "day": "Day 3",
+            "title": "Water Sports & Uluwatu",
+            "activities": "Head to Nusa Dua for thrilling water sports. In the evening, visit the clifftop Uluwatu Temple and watch the traditional Kecak Fire Dance at sunset."
+          },
+          {
+            "day": "Day 4",
+            "title": "Nusa Penida Island Tour",
+            "activities": "Take a speedboat to Nusa Penida. Visit the iconic Kelingking Beach (T-Rex cliff), Angel's Billabong, and Broken Beach."
+          },
+          {
+            "day": "Day 5",
+            "title": "Leisure & Spa",
+            "activities": "Spend a relaxing day at your villa. Enjoy a traditional 2-hour Balinese massage followed by a romantic sunset dinner at Jimbaran Bay."
+          },
+          {
+            "day": "Day 6",
+            "title": "Departure",
+            "activities": "Check out and head to the airport, taking a piece of Bali in your heart."
+          }
+        ],
+        "reviews": [
+          {
+            "name": "Karan & Simran",
+            "profileImg": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg",
+            "stars": 5,
+            "text": "Booked this for our honeymoon and it was the best decision ever! The private pool villa was stunning and the Nusa Penida tour was surreal."
+          }
+        ]
+      }
+    },
+
+    "germany": {
+      "berlin": {
+        "title": "Berlin",
+        "popular": false,
+        "description": "Experience the rich history and vibrant culture of Germany's iconic capital.",
+        "images": [
+          "assets/images/berlin.jpg",
+          "assets/images/berlin-2.jpg",
+          "assets/images/berlin-3.jpg",
+          "assets/images/berlin-4.jpg"
+        ],
+        "duration": "5 Days / 4 Nights",
+        "price": "₹75,000",
+        "packageOptions": [
+          { "duration": "4 Days / 3 Nights", "price": "₹62,000" },
+          { "duration": "5 Days / 4 Nights", "price": "₹75,000" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "City Center Hotel",
+          "Daily Breakfast",
+          "Berlin WelcomeCard",
+          "Historical Walking Tour"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival",
+            "activities": "Transfer to your hotel. Evening at leisure to explore the local German cafes."
+          },
+          {
+            "day": "Day 2",
+            "title": "Berlin Wall & Brandenburg Gate",
+            "activities": "Take a guided walking tour covering the remnants of the Berlin Wall, Checkpoint Charlie, and the iconic Brandenburg Gate."
+          },
+          {
+            "day": "Day 3",
+            "title": "Museum Island",
+            "activities": "Use your WelcomeCard to explore the world-famous Museum Island and the Berlin Cathedral."
+          },
+          {
+            "day": "Day 4",
+            "title": "Potsdam Day Trip",
+            "activities": "Take a short train ride to Potsdam to see the stunning Sanssouci Palace and its beautiful gardens."
+          },
+          {
+            "day": "Day 5",
+            "title": "Departure",
+            "activities": "Check out from the hotel and head to the airport."
+          }
+        ],
+        "reviews": []
+      }
+    },
+
+    "uk": {
+      "london": {
+        "title": "London",
+        "popular": false,
+        "description": "Discover the iconic landmarks, royal heritage, and bustling streets of London.",
+        "images": [
+          "assets/images/london.jpg",
+          "assets/images/london-2.jpg",
+          "assets/images/london-3.jpg",
+          "assets/images/london-4.jpg"
+        ],
+        "duration": "5 Days / 4 Nights",
+        "price": "₹95,000",
+        "packageOptions": [
+          { "duration": "5 Days / 4 Nights", "price": "₹95,000" },
+          { "duration": "7 Days / 6 Nights", "price": "₹1,30,000" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "4-Star Boutique Hotel",
+          "London Eye Fast-Track Ticket",
+          "Thames River Cruise",
+          "Daily English Breakfast"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Welcome to London",
+            "activities": "Arrive at Heathrow and transfer to the hotel. Spend the evening walking around Covent Garden."
+          },
+          {
+            "day": "Day 2",
+            "title": "Royal London",
+            "activities": "Watch the Changing of the Guard at Buckingham Palace, visit Westminster Abbey, and ride the London Eye."
+          },
+          {
+            "day": "Day 3",
+            "title": "History & Cruise",
+            "activities": "Visit the Tower of London and Big Ben. In the evening, enjoy a relaxing Thames River Cruise."
+          },
+          {
+            "day": "Day 4",
+            "title": "Museums & Shopping",
+            "activities": "Explore the British Museum or Natural History Museum. Later, shop at Oxford Street and Harrods."
+          },
+          {
+            "day": "Day 5",
+            "title": "Departure",
+            "activities": "Transfer back to the airport for your flight home."
+          }
+        ],
+        "reviews": []
+      }
+    },
+
+    "china": {
+      "wuhan": {
+        "title": "Wuhan",
+        "popular": false,
+        "description": "Explore the historical sites and modern marvels of this dynamic city.",
+        "images": [
+          "assets/images/wuhan.jpg",
+          "assets/images/wuhan-2.jpg",
+          "assets/images/wuhan-3.jpg",
+          "assets/images/wuhan-4.jpg"
+        ],
+        "duration": "4 Days / 3 Nights",
+        "price": "₹45,000",
+        "packageOptions": [
+          { "duration": "4 Days / 3 Nights", "price": "₹45,000" },
+          { "duration": "6 Days / 5 Nights", "price": "₹65,000" },
+          { "duration": "Custom Plan", "price": "XXXX" }
+        ],
+        "packageIncludes": [
+          "Luxury Hotel Stay",
+          "Yellow Crane Tower Tickets",
+          "Yangtze River Cruise",
+          "Breakfast & 1 Dinner"
+        ],
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Arrival",
+            "activities": "Arrive in Wuhan, transfer to the hotel, and rest."
+          },
+          {
+            "day": "Day 2",
+            "title": "Historical Tour",
+            "activities": "Visit the iconic Yellow Crane Tower and the Hubei Provincial Museum."
+          },
+          {
+            "day": "Day 3",
+            "title": "Nature & Cruise",
+            "activities": "Stroll around the beautiful East Lake. In the evening, enjoy a dazzling Yangtze River Cruise."
+          },
+          {
+            "day": "Day 4",
+            "title": "Departure",
+            "activities": "Check out and head to the airport."
+          }
+        ],
+        "reviews": []
+      }
+    }
+  }
+}

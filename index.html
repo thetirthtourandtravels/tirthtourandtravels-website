@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tirth Tour & Travels | Best Travel Agency & Custom Tour Packages</title>
+    <meta name="description"
+        content="Looking for the perfect holiday? Tirth Tour & Travels offers customized tour packages, affordable holiday trips, and safe travel experiences across India and abroad.">
+    <meta name="keywords"
+        content="Tirth Tour & Travels, travel agency, tour packages, custom holidays, honeymoon packages, trip booking, vacation planning">
+
+    <meta property="og:title" content="Tirth Tour & Travels | Best Travel Agency & Custom Tour Packages">
+    <meta property="og:description"
+        content="Discover and book amazing tours and highly personalized travel packages with Tirth Tour & Travels.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tirthtourandtravels.com/">
+    <meta property="og:image" content="https://www.tirthtourandtravels.com/assets/images/social-preview.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tirth Tour & Travels | Best Travel Agency">
+    <meta name="twitter:description"
+        content="Book amazing tours and highly personalized travel packages with Tirth Tour & Travels.">
+    <meta name="twitter:image" content="https://www.tirthtourandtravels.com/assets/images/social-preview.jpg">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/airbnb.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="loader-icon">
+            <i class="ri-flight-takeoff-line"></i>
+        </div>
+    </div>
+
+    <header class="hero-section">
+
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="assets/images/hero-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="assets/images/logo.png" alt="Tirth Tour & Travels Logo" class="logo-img">
+                </a>
+
+                <ul class="nav-menu-desktop">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="all-destinations.html" class="nav-link">All Places</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                </ul>
+
+                <a href="contact.html" class="nav-button cta-button">Plan Your Trip</a>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <ul class="nav-menu-mobile">
+            <i class="ri-close-line close-menu-icon"></i>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="all-destinations.html" class="nav-link">All Places</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+            <a href="contact.html" class="nav-button cta-button">Plan Your Trip</a>
+        </ul>
+
+        <div class="hero-content">
+            <h1>YOUR DREAM<br>VACATION<br>STARTS HERE</h1>
+            <p>Discover breathtaking destinations and book highly personalized tour packages with us.</p>
+        </div>
+
+        <div class="booking-form-container">
+            <form action="#" class="booking-form">
+
+                <div class="form-group location-group">
+                    <label for="location">Destination</label>
+                    <input type="text" id="location" placeholder="Where do you want to go?" autocomplete="off">
+
+                    <div class="location-dropdown" id="location-dropdown">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="check-in">Travel Date</label>
+                    <input type="text" id="check-in" placeholder="When are you leaving?">
+                </div>
+                <div class="form-group">
+                    <label for="check-out">Return Date</label>
+                    <input type="text" id="check-out" placeholder="When are you coming back?">
+                </div>
+                <div class="form-group">
+                    <label for="traveler">Guests</label>
+                    <input type="number" id="traveler" placeholder="How many people?" min="1">
+                </div>
+                <button type="submit" class="form-submit-btn" aria-label="Send to WhatsApp">
+                    <span class="submit-text">Get Quote</span>
+                    <i class="ri-whatsapp-line"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="hero-bottom-info">
+            <div class="bottom-info-left">
+                <h2>Ladakh</h2>
+                <p>A land of high passes, crystal-clear lakes, and vast barren valleys.
+                    <br>Experience the magic of the 'Moonland' with our curated packages.
+                </p>
+            </div>
+            <div class="bottom-info-right">
+                <a href="#main-content" class="scroll-down">
+                    <i class="ri-arrow-down-line"></i>
+                    <span>Scroll <br> Down</span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main id="main-content">
+        <section class="popular-section">
+            <div class="container">
+
+                <div class="popular-header">
+                </div>
+
+                <div class="popular-grid collapsed" id="dynamic-popular-grid">
+                </div>
+
+                <div class="popular-show-more">
+                    <a href="#" class="btn" id="show-more-btn">Explore More Places</a>
+                </div>
+            </div>
+        </section>
+        <section class="places-section">
+            <div class="container">
+
+                <div class="places-header">
+                    <h2>YOU PICK THE DESTINATION,<br>WE PLAN THE MAGIC</h2>
+                    <p>Whether it's a romantic honeymoon in Bali, an adventurous trip to Manali, or a peaceful retreat
+                        in Kashmir, our travel experts design seamless itineraries exactly the way you want them.</p>
+                </div>
+
+                <div class="places-filters">
+                    <div class="filter-buttons-wrapper">
+                        <div class="filter-buttons" id="dynamic-filter-buttons">
+                            <button class="filter-btn active" data-filter="all">All Destinations</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-bar-container">
+                    <form class="places-search">
+                        <i class="ri-search-line"></i>
+                        <input type="text" id="places-search-input"
+                            placeholder="Search for your favorite country or city...">
+                    </form>
+                </div>
+
+                <div class="places-grid collapsed" id="dynamic-places-grid">
+                </div>
+
+                <div class="no-results-message" id="no-results-message" style="display: none;">
+                    <i class="ri-compass-3-line"></i>
+                    <h3>Destination Not Found</h3>
+                    <p>We might not have listed this place yet, but we can definitely plan a trip there! Contact us
+                        directly.</p>
+                </div>
+
+                <div class="places-view-more">
+                    <a href="all-destinations.html" class="btn" id="places-view-more-btn">View All Destinations</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+
+                    <div class="about-text-box">
+                        <div class="about-header">
+                            <h2 class="section-title">TRAVEL WITH CONFIDENCE<br>& MAKE MEMORIES</h2>
+                            <p>We don't just book tickets; we craft experiences. At Tirth Tour & Travels, we take care
+                                of the flights, comfortable stays, and local sightseeing so your only job is to relax
+                                and enjoy the journey.</p>
+                        </div>
+
+                        <ul class="about-features-list">
+                            <li class="feature-item">
+                                <div class="feature-icon"><i class="ri-map-pin-user-line"></i></div>
+                                <span>Verified Local Tour Guides</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon"><i class="ri-shield-star-line"></i></div>
+                                <span>100% Safe & Trusted Travel</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon"><i class="ri-wallet-3-line"></i></div>
+                                <span>No Hidden Costs, Transparent Pricing</span>
+                            </li>
+                        </ul>
+
+                        <a href="about.html" class="btn about-btn">Discover Our Story</a>
+                    </div>
+
+                    <div class="about-image-wrapper">
+                        <div class="about-img-1">
+                            <img src="assets/images/kashmir.jpg" alt="Beautiful views of Kashmir">
+                        </div>
+
+                        <div class="about-img-2">
+                            <img src="assets/images/bali.jpg" alt="Couple enjoying Bali vacation">
+                        </div>
+
+                        <div class="about-experience-badge animate-float">
+                            <h3>10+</h3>
+                            <span>Years of<br>Creating Smiles</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-section">
+            <div class="container">
+
+                <div class="testimonial-header">
+                    <h2>REAL TRAVELERS, REAL STORIES</h2>
+                    <p>Don't just take our word for it. Read what our happy clients have to say about their
+                        unforgettable trips planned by our expert team.</p>
+                </div>
+
+                <div class="testimonial-content" id="testimonial-dynamic-wrapper">
+                    <div class="testimonial-image-container">
+                        <img src="assets/images/testimonial-place-tokyo.jpg" alt="Travel Destination"
+                            class="testimonial-place-img" id="dyn-test-place-img">
+                        <img src="assets/images/client-adom.jpg" alt="Happy Client" class="testimonial-profile-img"
+                            id="dyn-test-profile-img">
+                    </div>
+
+                    <div class="testimonial-review">
+                        <p class="review-text" id="dyn-test-review-text">"Loading stories from our travelers..."</p>
+
+                        <div class="client-info">
+                            <h3 class="client-name" id="dyn-test-client-name">Loading...</h3>
+                            <span class="client-location" id="dyn-test-client-loc">Loading...</span>
+                        </div>
+
+                        <div class="testimonial-stars" id="dyn-test-stars">
+                            <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-button-container">
+                    <a href="#" class="btn" id="open-review-modal-btn">Share Your Experience</a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="modal-overlay" id="review-modal">
+            <div class="modal-content">
+                <i class="ri-close-line close-modal-btn" id="close-review-modal"></i>
+                <h3 class="modal-title">We'd Love to Hear From You!</h3>
+
+                <form id="write-review-form" class="review-form">
+                    <div class="modal-form-group">
+                        <label for="review-name">Your Full Name</label>
+                        <input type="text" id="review-name" required placeholder="e.g. Rahul Sharma">
+                    </div>
+
+                    <div class="modal-form-group">
+                        <label for="review-location">Where did you travel?</label>
+                        <input type="text" id="review-location" required placeholder="e.g. Manali, Himachal Pradesh">
+                    </div>
+
+                    <div class="modal-form-group star-rating-group">
+                        <label>Rate Your Trip</label>
+                        <div class="star-rating-input" id="star-rating-input">
+                            <i class="ri-star-fill" data-value="1"></i>
+                            <i class="ri-star-fill" data-value="2"></i>
+                            <i class="ri-star-fill" data-value="3"></i>
+                            <i class="ri-star-fill" data-value="4"></i>
+                            <i class="ri-star-fill" data-value="5"></i>
+                        </div>
+                        <input type="hidden" id="review-stars-val" value="5">
+                    </div>
+
+                    <div class="modal-form-group">
+                        <label for="review-text-input">Tell us about your trip</label>
+                        <textarea id="review-text-input" rows="4" required
+                            placeholder="What was your favorite moment? How was the service?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn full-width-btn">
+                        <i class="ri-whatsapp-line"></i> Send Review via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+        <section class="faq-section">
+            <div class="container">
+
+                <div class="faq-header">
+                    <h2>GOT QUESTIONS? WE'VE GOT ANSWERS</h2>
+                    <p>Here are some of the most common questions we get asked. If you need more specific details, feel
+                        free to reach out to our support team.</p>
+                </div>
+
+                <div class="faq-accordion">
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How do I book a tour package with you?</span>
+
+                            <div class="faq-icon-wrapper">
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Booking is extremely easy! Browse through our destinations, choose a package you
+                                    like, and simply click the WhatsApp button to chat directly with our travel experts.
+                                    We handle the rest.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Are there any hidden charges in your packages?</span>
+
+                            <div class="faq-icon-wrapper">
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Absolutely not. We believe in 100% transparency. The itinerary will clearly list
+                                    everything that is included (like hotels, cabs, meals) and what is excluded (like
+                                    personal shopping or extra activities).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I customize the itinerary according to my family's needs?</span>
+
+                            <div class="faq-icon-wrapper">
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, all our trips are tailor-made! Whether you want an extra day for relaxation,
+                                    need a specific type of food, or want to upgrade your hotel, we will customize the
+                                    plan completely to match your vibe.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What happens if my trip gets delayed or I need to cancel?</span>
+
+                            <div class="faq-icon-wrapper">
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We understand that emergencies happen. We have a fair cancellation policy in place.
+                                    The refund amount depends on how close the cancellation is to your travel date. We
+                                    always try our best to accommodate date changes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="location-map-section">
+            <div class="map-wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.9786674606507!2d72.79742676967112!3d21.195548449162672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f1645d33d5d%3A0x6a0c3912bceb5e83!2sTirth%20Tours%20%26%20Travels!5e0!3m2!1sen!2sin!4v1773563921804!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="Tirth Tour & Travels Office Location"></iframe>
+
+                <div class="map-overlay-btn-container">
+                    <a href="contact.html" class="btn">Visit Our Office</a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-col footer-col-logo">
+                        <a href="index.html" class="footer-logo">
+                            <img src="assets/images/logo.png" alt="Tirth Tour & Travels Logo" class="footer-logo-img">
+                        </a>
+                        <p>Your trusted travel partner. Discover, plan, and book amazing holiday packages with us and
+                            turn your travel dreams into reality.
+                        </p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Top Destinations</h4>
+                        <ul id="footer-destinations">
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="about.html">Our Story</a></li>
+                            <li><a href="contact.html">Contact Support</a></li>
+                            <li><a href="faq.html">Help & FAQs</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Connect With Us</h4>
+                        <ul id="footer-social-links" class="footer-social-dynamic">
+                        </ul>
+                    </div>
+
+                    <div class="footer-col footer-col-reach">
+                        <h4>Get In Touch</h4>
+                        <ul class="reach-us-list">
+                            <li id="footer-address"><i class="ri-map-pin-line"></i> <span>Loading...</span></li>
+                            <li id="footer-email"><i class="ri-mail-line"></i> <span>Loading...</span></li>
+                            <li id="footer-whatsapp"><i class="ri-whatsapp-line"></i> <span>Loading...</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <hr class="footer-divider">
+                    <div class="footer-bottom-content">
+                        <p class="copyright-text" id="footer-copyright">© 2026 Tirth Tour & Travels. All rights
+                            reserved.</p>
+
+                        <div class="developer-credit">
+                            <a href="https://dgisight.oxzeen.com/" target="_blank" class="credit-pill">
+                                Built with <i class="ri-heart-fill heart-icon"></i> by <strong>dgisight</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

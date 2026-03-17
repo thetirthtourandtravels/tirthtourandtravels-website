@@ -1,0 +1,453 @@
+/* ==========================================================================
+   ABOUT PAGE STYLESHEET (about.css)
+========================================================================== */
+
+.about-hero .hero-content {
+    margin-bottom: 5rem;
+}
+
+/* ==========================================================================
+   1. OUR STORY SECTION
+========================================================================== */
+.our-story-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: var(--color-background);
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.story-images {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.story-img-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 80%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+.story-img-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.story-img-sub {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55%;
+    height: 55%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    border: 8px solid var(--color-background);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.story-img-sub img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.story-badge {
+    position: absolute;
+    top: 15%;
+    right: -20px;
+    background-color: var(--color-white);
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 15px 35px rgba(61, 97, 251, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 5px solid var(--color-accent);
+    z-index: 3;
+    animation: floatUpDown 4s ease-in-out infinite;
+}
+.story-badge h3 {
+    font-size: 2.5rem;
+    color: var(--color-accent);
+    line-height: 1;
+}
+.story-badge span {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.section-subtitle {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+.story-text h2 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-primary);
+}
+.story-text p {
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.story-text .lead-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.story-stats {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+}
+.stat-item h4 {
+    font-size: 2.2rem;
+    color: var(--color-accent);
+    margin-bottom: 0.25rem;
+}
+.stat-item span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+/* ==========================================================================
+   2. MEET THE FOUNDER
+========================================================================== */
+.founder-section {
+    padding-bottom: 6rem;
+    background-color: var(--color-background);
+}
+
+.founder-box {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--color-background-secondary);
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.founder-img {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var(--color-white);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.founder-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.founder-content {
+    flex-grow: 1;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    color: var(--color-accent);
+    opacity: 0.5;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.founder-content h3 {
+    font-family: "Georgia", serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.founder-details h4 {
+    font-size: 1.3rem;
+    color: var(--color-text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.founder-details span {
+    font-family: var(--font-primary);
+    color: var(--color-accent);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   3. MISSION & VISION
+========================================================================== */
+.mission-vision-section {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    background-color: var(--color-background);
+}
+
+.mv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.mv-card {
+    background: linear-gradient(145deg, var(--color-background-secondary) 0%, var(--color-white) 100%);
+    border: 1px solid var(--color-border);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.mv-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.mv-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.mv-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+}
+
+.mv-card p {
+    color: var(--color-text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* ==========================================================================
+   4. WHY CHOOSE US (BENEFITS)
+========================================================================== */
+.our-values-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: var(--color-background-secondary);
+}
+
+.values-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 4rem auto;
+}
+.values-header h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+}
+.values-header p {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.value-card {
+    background-color: var(--color-white);
+    padding: 2.5rem 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+.value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(61, 97, 251, 0.1);
+}
+
+.value-icon {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(61, 97, 251, 0.1);
+    color: var(--color-accent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    margin: 0 auto 1.5rem auto;
+    transition: all 0.3s ease;
+}
+.value-card:hover .value-icon {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.value-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+}
+.value-card p {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   5. CTA SECTION
+========================================================================== */
+.about-cta-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--color-background);
+}
+.about-cta-box {
+    background: linear-gradient(135deg, var(--color-accent) 0%, #1a3ab0 100%);
+    border-radius: 2rem;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: var(--color-white);
+    box-shadow: 0 20px 40px rgba(61, 97, 251, 0.25);
+}
+.about-cta-box h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.about-cta-box p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-btn-large {
+    background-color: var(--color-white);
+    color: var(--color-accent);
+    padding: 1.2rem 3rem;
+    font-size: 1.1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.cta-btn-large:hover {
+    background-color: var(--color-text-primary);
+    color: var(--color-white);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================================
+   6. RESPONSIVE DESIGN FOR ABOUT PAGE
+========================================================================== */
+@media (max-width: 992px) {
+    .story-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .story-images {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .story-text {
+        text-align: center;
+    }
+    .story-stats {
+        justify-content: center;
+    }
+
+    .founder-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .mv-grid {
+        grid-template-columns: 1fr;
+    }
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .story-images {
+        height: 380px;
+    }
+    .story-badge {
+        top: 5%;
+        right: 0;
+        padding: 1rem;
+    }
+    .story-badge h3 {
+        font-size: 2rem;
+    }
+    .story-text h2 {
+        font-size: 2rem;
+    }
+    .story-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+        border-top: none;
+        padding-top: 0;
+    }
+
+    .founder-img {
+        width: 180px;
+        height: 180px;
+    }
+    .founder-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-cta-box {
+        padding: 3rem 1.5rem;
+    }
+    .about-cta-box h2 {
+        font-size: 2rem;
+    }
+    .cta-btn-large {
+        width: 100%;
+        display: block;
+    }
+}

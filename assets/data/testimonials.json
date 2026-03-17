@@ -1,0 +1,28 @@
+{
+  "testimonials": [
+    {
+      "clientName": "Adom Shafi",
+      "location": "Tokyo Traveler",
+      "review": "Tripzo made my trip planning simple and stress-free. Great deals, easy booking, and excellent support. Highly recommend!",
+      "stars": 5,
+      "profileImg": "assets/images/client-adom.jpg",
+      "placeImg": "assets/images/testimonial-place-tokyo.jpg"
+    },
+    {
+      "clientName": "Priya Patel",
+      "location": "Kashmir Explorer",
+      "review": "Absolutely wonderful experience! The guides were friendly, and the scenery was breathtaking. Will definitely use them again.",
+      "stars": 5,
+      "profileImg": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+      "placeImg": "assets/images/kashmir.jpg"
+    },
+    {
+      "clientName": "John Doe",
+      "location": "Bali Backpacker",
+      "review": "Best vacation ever. Everything was perfectly organized from start to finish. A truly unforgettable journey.",
+      "stars": 4,
+      "profileImg": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "placeImg": "assets/images/bali.jpg"
+    }
+  ]
+}

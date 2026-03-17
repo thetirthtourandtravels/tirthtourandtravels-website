@@ -1,0 +1,452 @@
+/* ==========================================================================
+   DESTINATION DETAILS PAGE (destination.css)
+========================================================================== */
+
+/* ======== 1. DESTINATION HERO ======== */
+.dest-page-hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dest-hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    z-index: 1;
+}
+
+.dest-hero-center {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-badges {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.badge-popular, .badge-duration {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.badge-popular { 
+    background: var(--color-accent); 
+    border: none;
+}
+
+.hero-location-pin {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #e0e0e0;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+/* ======== 2. LAYOUT: TWO COLUMNS ======== */
+.package-details-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: var(--color-background-secondary);
+}
+
+.package-layout {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 3rem;
+}
+
+/* ======== 3. LEFT COLUMN (Details) ======== */
+.package-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.detail-block {
+    background: var(--color-white);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.detail-block h3 {
+    font-size: 1.8rem;
+    color: var(--color-text-primary);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-background-secondary);
+    padding-bottom: 1rem;
+}
+
+.detail-block p {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+/* Gallery Grid */
+.dest-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.dest-gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: transform 0.4s ease;
+}
+
+.dest-gallery-grid img:hover {
+    transform: scale(1.03);
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Inclusions List */
+.includes-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.includes-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.05rem;
+    color: var(--color-text-primary);
+    font-weight: 500;
+}
+
+.includes-list i {
+    color: #25D366;
+    font-size: 1.2rem;
+    background: rgba(37, 211, 102, 0.1);
+    padding: 6px;
+    border-radius: 50%;
+}
+
+/* Itinerary Accordion */
+.itinerary-day {
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    background: var(--color-background);
+}
+
+.itinerary-header {
+    background: var(--color-background-secondary);
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--color-text-primary);
+    transition: all 0.3s ease;
+}
+
+.day-badge {
+    background: var(--color-accent);
+    color: var(--color-white);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.itinerary-body {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.itinerary-day.active .itinerary-body {
+    padding: 1.5rem;
+    max-height: 800px;
+}
+
+.itinerary-day.active .itinerary-header {
+    background: var(--color-accent);
+    color: var(--color-white);
+}
+
+.itinerary-day.active .day-badge {
+    background: var(--color-white);
+    color: var(--color-accent);
+}
+
+/* Reviews Grid */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.review-card {
+    background: var(--color-background-secondary);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-border);
+}
+
+.review-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review-user img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-stars {
+    color: #ffa500;
+    font-size: 1.1rem;
+}
+
+/* ======== 4. RIGHT COLUMN (Sticky Booking Form) ======== */
+.package-right {
+    position: relative;
+    height: 100%;
+}
+
+.sticky-booking-card {
+    background: var(--color-white);
+    padding: 2rem; 
+    border-radius: 1.5rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.05);
+    
+    /* STICKY MAGIC */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px; 
+    z-index: 10;
+
+    /* Smart Scroll for Small Screens */
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+/* Custom Scrollbar for Card */
+.sticky-booking-card::-webkit-scrollbar {
+    width: 5px;
+}
+.sticky-booking-card::-webkit-scrollbar-thumb {
+    background-color: var(--color-border);
+    border-radius: 10px;
+}
+
+.booking-price-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.price-label {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#booking-price {
+    font-size: 2.2rem;
+    color: var(--color-accent);
+    margin-top: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+#booking-price span {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+#booking-price-note {
+    animation: fadeInSlideUp 0.3s ease-out forwards;
+}
+
+.booking-row {
+    margin-bottom: 1.2rem;
+}
+
+.guests-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.booking-input-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: 0.4rem;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-accent);
+    font-size: 1.1rem;
+    pointer-events: none;
+}
+
+.input-with-icon input, .input-with-icon select, .simple-input {
+    width: 100%;
+    padding: 0.9rem 1rem 0.9rem 3rem; 
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+    background: var(--color-background-secondary);
+    transition: all 0.3s ease;
+    color: var(--color-text-primary);
+}
+
+select.simple-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z' fill='rgba(0,0,0,0.5)'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.5rem;
+    cursor: pointer;
+}
+
+.simple-input {
+    padding: 0.9rem 1rem;
+}
+
+.input-with-icon input:focus, .input-with-icon select:focus, .simple-input:focus, .guest-counter input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    background: var(--color-white);
+    box-shadow: 0 0 10px rgba(61, 97, 251, 0.1);
+}
+
+.guest-counter input {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 0.95rem;
+    background: var(--color-background-secondary);
+    transition: all 0.3s ease;
+    color: var(--color-text-primary);
+}
+
+.booking-terms {
+    background: rgba(61, 97, 251, 0.05);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px dashed rgba(61, 97, 251, 0.3);
+}
+
+.booking-terms p {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+.booking-terms i {
+    color: var(--color-accent);
+    margin-right: 5px;
+}
+
+.book-whatsapp-btn {
+    width: 100%;
+    padding: 1rem; 
+    font-size: 1.05rem;
+    background-color: #25D366; 
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-whatsapp-btn:hover {
+    background-color: #1EBE5D;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+    transform: translateY(-2px);
+}
+
+/* ======== 5. RESPONSIVE ======== */
+@media (max-width: 1100px) {
+    .package-layout {
+        grid-template-columns: 1fr;
+    }
+    .sticky-booking-card {
+        position: relative;
+        top: 0;
+        max-height: none;
+        overflow-y: visible;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-badges {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .detail-block {
+        padding: 1.5rem;
+    }
+    .includes-list {
+        grid-template-columns: 1fr;
+    }
+    .dest-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    .dest-gallery-grid img {
+        height: 200px;
+    }
+    .guests-row {
+        grid-template-columns: 1fr;
+    }
+}

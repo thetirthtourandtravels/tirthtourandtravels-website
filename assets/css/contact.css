@@ -1,0 +1,226 @@
+/* ==========================================================================
+   CONTACT PAGE STYLESHEET (contact.css)
+========================================================================== */
+
+/* ======== 1. CONTACT HERO & FORM ======== */
+.contact-hero-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: var(--navbar-height);
+    overflow: hidden;
+}
+
+.contact-hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 1;
+}
+
+.contact-hero-container {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    width: 100%;
+    padding: 4rem 1rem;
+}
+
+/* Left: Pro Text */
+.contact-text-content {
+    color: var(--color-white);
+}
+
+.contact-text-content h1 {
+    font-size: 4.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.contact-text-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+/* Right: Vertical Glassmorphism Form */
+.contact-form-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.form-header h3 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+}
+
+.input-group input, 
+.input-group textarea {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    color: var(--color-text-primary);
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    background: var(--color-white);
+    box-shadow: 0 0 15px rgba(61, 97, 251, 0.3);
+}
+
+.submit-contact-btn {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+}
+
+.submit-contact-btn:hover {
+    background-color: #1EBE5D;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+}
+
+/* ======== 2. DYNAMIC CONTACT INFO CARDS ======== */
+.contact-info-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--color-background-secondary);
+}
+
+.info-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.info-card {
+    background-color: var(--color-white);
+    padding: 2.5rem 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.4s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+}
+
+.info-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(61, 97, 251, 0.1);
+    color: var(--color-accent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 0 auto 1.5rem auto;
+}
+
+.info-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-primary);
+}
+
+.info-card p {
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Dynamic Socials */
+.contact-social-section {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.contact-social-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-primary);
+}
+
+.contact-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact-social-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    color: var(--color-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.contact-social-circle:hover {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    transform: translateY(-5px);
+}
+
+/* ======== 3. RESPONSIVE DESIGN ======== */
+@media (max-width: 992px) {
+    .contact-hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .contact-text-content h1 { font-size: 3.5rem; }
+    .info-cards-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+@media (max-width: 768px) {
+    .contact-hero-section { height: auto; min-height: 100vh; }
+    .contact-text-content h1 { font-size: 2.5rem; }
+    .contact-text-content p { font-size: 1rem; }
+    .contact-form-wrapper { padding: 1.5rem; }
+}

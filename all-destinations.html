@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Top Destinations & Holiday Packages | Tirth Tour & Travels</title>
+    <meta name="description"
+        content="Browse our wide range of breathtaking travel destinations. Filter by country, explore custom holiday packages, and find your dream vacation spot with Tirth Tour & Travels.">
+    <meta name="keywords"
+        content="top travel destinations, holiday packages, international tours, domestic trips, custom travel itineraries, Tirth Tour & Travels destinations">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all-destinations.css">
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="loader-icon">
+            <i class="ri-flight-takeoff-line"></i>
+        </div>
+    </div>
+
+    <header class="hero-section destinations-hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="assets/images/destination-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="destinations-hero-overlay"></div>
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="assets/images/logo.png" alt="Tirth Tour & Travels Logo" class="logo-img">
+                </a>
+                <ul class="nav-menu-desktop">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="all-destinations.html" class="nav-link"
+                            style="color: var(--color-accent);">All Places</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                </ul>
+                <a href="contact.html" class="nav-button cta-button">Plan Your Trip</a>
+                <div class="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+
+        <ul class="nav-menu-mobile">
+            <i class="ri-close-line close-menu-icon"></i>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="all-destinations.html" class="nav-link"
+                    style="color: var(--color-accent);">All Places</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+            <a href="contact.html" class="nav-button cta-button">Plan Your Trip</a>
+        </ul>
+
+        <div class="hero-content">
+            <h1>DISCOVER YOUR<br>NEXT ADVENTURE 🌍</h1>
+            <p>Browse our handpicked destinations and let us plan the perfect getaway for you.</p>
+        </div>
+
+        <div class="hero-bottom-info">
+            <div class="bottom-info-left">
+                <h2>Our Portfolio</h2>
+                <p>Filter by your favorite country or search directly<br>to find the exact spot you're looking for.</p>
+            </div>
+            <div class="bottom-info-right">
+                <a href="#all-places-main" class="scroll-down">
+                    <i class="ri-arrow-down-line"></i>
+                    <span>Scroll <br> Down</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="all-places-main">
+
+        <section class="places-section destinations-page-places">
+            <div class="container">
+                <div class="places-header">
+                    <h2>Explore Beautiful Destinations</h2>
+                    <p>Use the filters or the search bar below to narrow down your dream vacation choices.</p>
+                </div>
+
+                <div class="filter-buttons-wrapper">
+                    <div class="filter-buttons" id="dynamic-filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All Places</button>
+                    </div>
+                </div>
+
+                <div class="search-bar-container">
+                    <div class="places-search">
+                        <i class="ri-search-line"></i>
+                        <input type="text" id="places-search-input"
+                            placeholder="Search by place name (e.g. Kashmir, Bali, Tokyo)...">
+                    </div>
+                </div>
+
+                <div class="places-grid" id="dynamic-places-grid">
+                </div>
+
+                <div id="no-results-message" class="no-results-message" style="display: none;">
+                    <i class="ri-map-pin-user-line"></i>
+                    <h3>Oops! We couldn't find that spot.</h3>
+                    <p>Check your spelling, or contact us directly—we might still be able to plan a trip there!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="custom-trip-section">
+            <div class="container">
+                <div class="custom-trip-box">
+
+                    <div class="trip-box-content">
+                        <span class="section-subtitle" style="margin-bottom: 10px;">TAILOR-MADE EXPERIENCES</span>
+                        <h2>Confused About Where To Go?</h2>
+                        <p>The world is huge, and picking just one place can be overwhelming. Talk to our travel
+                            experts! We will design a highly personalized itinerary based strictly on your interests,
+                            budget, and travel vibe.</p>
+
+                        <ul class="trip-benefits">
+                            <li><i class="ri-check-line"></i> <span>100% Customized to your taste</span></li>
+                            <li><i class="ri-check-line"></i> <span>Authentic local insights</span></li>
+                            <li><i class="ri-check-line"></i> <span>Absolutely hassle-free planning</span></li>
+                            <li><i class="ri-check-line"></i> <span>24/7 Support during your trip</span></li>
+                        </ul>
+
+                        <a href="contact.html" class="btn trip-cta-btn">
+                            <i class="ri-magic-line"></i> Get a Free Custom Itinerary
+                        </a>
+                    </div>
+
+                    <div class="trip-box-image-wrapper">
+                        <div class="trip-box-image">
+                            <img src="assets/images/kashmir.jpg" alt="Premium Custom Trip Planning">
+                        </div>
+                        <div class="trip-image-badge">
+                            <div class="badge-icon"><i class="ri-vip-crown-fill"></i></div>
+                            <div class="badge-text">
+                                <h4>Premium</h4>
+                                <span>Custom Plans</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col footer-col-logo">
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="Tirth Tour & Travels Logo" class="footer-logo-img">
+                    </a>
+                    <p>Your trusted travel partner. Discover, plan, and book amazing holiday packages with us and turn
+                        your travel dreams into reality.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Top Destinations</h4>
+                    <ul id="footer-destinations"></ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="contact.html">Contact Support</a></li>
+                        <li><a href="faq.html">Help & FAQs</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <ul id="footer-social-links" class="footer-social-dynamic"></ul>
+                </div>
+                <div class="footer-col footer-col-reach">
+                    <h4>Get In Touch</h4>
+                    <ul class="reach-us-list">
+                        <li id="footer-address"><i class="ri-map-pin-line"></i> <span>Loading...</span></li>
+                        <li id="footer-email"><i class="ri-mail-line"></i> <span>Loading...</span></li>
+                        <li id="footer-whatsapp"><i class="ri-whatsapp-line"></i> <span>Loading...</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <hr class="footer-divider">
+                <div class="footer-bottom-content">
+                    <p class="copyright-text" id="footer-copyright">© 2026 Tirth Tour & Travels. All rights reserved.
+                    </p>
+                    <div class="developer-credit">
+                        <a href="https://dgisight.oxzeen.com/" target="_blank" class="credit-pill">
+                            Built with <i class="ri-heart-fill heart-icon"></i> by <strong>dgisight</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

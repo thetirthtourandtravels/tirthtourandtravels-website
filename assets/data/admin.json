@@ -1,0 +1,30 @@
+{
+  "admin": {
+    "name": "Tirth Tour & Travels",
+    "address": "U-7 silver spring plaza near shree ram petrol pump | Adajan Surat",
+    "email": "booking@tirthtoursandtravels.com",
+    "whatsapp_number": "917567527923",
+    "social": [
+      {
+        "platform": "Facebook",
+        "link": "https://facebook.com/tirthtravels",
+        "icon": "ri-facebook-fill"
+      },
+      {
+        "platform": "Instagram",
+        "link": "https://instagram.com/tirthtravels",
+        "icon": "ri-instagram-line"
+      },
+      {
+        "platform": "Twitter",
+        "link": "https://twitter.com/tirthtravels",
+        "icon": "ri-twitter-x-line"
+      },
+      {
+        "platform": "YouTube",
+        "link": "https://youtube.com/tirthtravels",
+        "icon": "ri-youtube-fill"
+      }
+    ]
+  }
+}
