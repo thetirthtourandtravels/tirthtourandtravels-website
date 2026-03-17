@@ -976,6 +976,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .testimonial-image-container {
     position: relative;
     width: 100%;
+    border-radius: 1.25rem;
 }
 .testimonial-place-img {
     width: 100%;
@@ -1758,9 +1759,15 @@ input[type="number"]::-webkit-outer-spin-button {
     .footer-top {
         grid-template-columns: 1fr !important;
         text-align: left;
+        gap: 2.5rem;
+    }
+    .footer-col-logo,
+    .footer-col:not(.footer-col-logo) {
+        grid-column: span 1 !important;
     }
     .footer-col-logo {
         text-align: left;
+        margin-bottom: 1rem;
     }
     .footer-logo-img {
         margin: 0;
